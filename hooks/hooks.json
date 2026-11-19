@@ -1,0 +1,17 @@
+{
+  "description": "blastradius: say what a change is about to reach before it lands",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit|NotebookEdit|Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/pre-tool-use.mjs\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
