@@ -2,6 +2,18 @@
   "name": "blastradius",
   "description": "Says what a change is about to reach. Warns before Claude edits many files in one session, writes a very large file, touches migrations, auth, security rules, CI or infrastructure, or runs a force push, a recursive delete or a deploy.",
   "version": "1.0.0",
-  "keywords": ["guardrail", "hooks", "safety", "review", "claude-code"],
-  "license": "MIT"
+  "keywords": [
+    "guardrail",
+    "hooks",
+    "safety",
+    "review",
+    "claude-code"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Varun S.",
+    "url": "https://github.com/varun642002"
+  },
+  "homepage": "https://github.com/varun642002/blastradius",
+  "icon": "./.claude-plugin/icon.png"
 }
